@@ -10,7 +10,7 @@ export default function SplashTwo() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      router.replace('/home'); // go to home screen
+      router.replace('/home'); 
     }, 1300);
 
     return () => clearTimeout(timer);
